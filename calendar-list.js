@@ -1,1 +1,2 @@
-export { default as CalendarList } from 'react-native-calendars'
+import { CalendarList } from 'react-native-calendars'
+export default CalendarList
