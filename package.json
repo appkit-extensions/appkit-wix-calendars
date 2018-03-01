@@ -1,6 +1,6 @@
 {
   "name": "appkit-wix-calendars",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wix calendar components for Appkit",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +26,7 @@
       },
       {
         "name": "CalendarList",
-        "script": "calender-list.js"
+        "script": "calendar-list.js"
       },
       {
         "name": "Agenda",

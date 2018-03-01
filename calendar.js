@@ -1,2 +1,1 @@
-import { Calendar } from 'react-native-calendars'
-export default Calendar
+export { default as Calendar } from 'react-native-calendars'

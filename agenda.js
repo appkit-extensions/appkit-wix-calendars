@@ -1,2 +1,1 @@
-import { Agenda } from 'react-native-calendars'
-export default Agenda
+export { default as Agenda } from 'react-native-calendars'
