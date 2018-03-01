@@ -1,0 +1,40 @@
+{
+  "name": "appkit-wix-calendars",
+  "version": "1.0.0",
+  "description": "Wix calendar components for Appkit",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appkit-extensions/appkit-wix-calendars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appkit-extensions/appkit-wix-calendars/issues"
+  },
+  "homepage": "https://github.com/appkit-extensions/appkit-wix-calendars#readme",
+  "engines": {
+    "appkit": "^1.0.0"
+  },
+  "appkit": {
+    "components": [
+      {
+        "name": "Calendar",
+        "script": "calendar.js"
+      },
+      {
+        "name": "CalendarList",
+        "script": "calender-list.js"
+      },
+      {
+        "name": "Agenda",
+        "script": "agenda.js"
+      }
+    ]
+  },
+  "dependencies": {
+    "react-native-calendars": "^1.17.3"
+  }
+}
