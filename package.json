@@ -1,6 +1,6 @@
 {
   "name": "appkit-wix-calendars",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wix calendar components for Appkit",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,6 +35,6 @@
     ]
   },
   "dependencies": {
-    "react-native-calendars": "^1.17.3"
+    "react-native-calendars": "^1.20.0"
   }
 }
